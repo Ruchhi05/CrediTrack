@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CrediTrack - Sign Up</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="auth-wrapper">
+
+  <div class="auth-box">
+    <h1>CrediTrack</h1>
+    <p class="auth-subtitle">Create your account</p>
+
+    <form id="signupForm" novalidate>
+
+      <div class="input-group">
+        <input type="text" id="name" placeholder="Full Name">
+      </div>
+
+      <div class="input-group">
+        <input type="email" id="email" placeholder="Email Address">
+      </div>
+
+      <div class="password-group">
+        <input type="password" id="password" placeholder="Password">
+        <span class="toggle-password" id="togglePassword">👁</span>
+      </div>
+
+
+      <div class="password-group">
+        <input type="password" id="confirmPassword" placeholder="Confirm Password">
+        <span class="toggle-password" id="toggleConfirmPassword">👁</span>
+      </div>
+
+      <button type="submit" class="auth-main-btn">Sign Up</button>
+
+      <p class="auth-switch">
+        Already have an account?
+        <span id="goToLogin">Login</span>
+      </p>
+
+    </form>
+  </div>
+
+</div>
+
+<div id="validationModal" class="modal hidden">
+  <div class="modal-content">
+    <p id="validationMessage"></p>
+    <div class="modal-buttons">
+      <button id="validationOkBtn">OK</button>
+    </div>
+  </div>
+</div>
+
+<script src="signup.js" defer></script>
+</body>
+</html>
