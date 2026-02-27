@@ -116,7 +116,7 @@ http://localhost:5000
 
 ---
 
-## 👩 Author
+##  Author
 
 Ruchi  
 B.Tech Computer Science Student  
@@ -124,4 +124,4 @@ Aspiring Full Stack Developer
 
 ---
 
-⭐ If you like this project, consider giving it a star!
+ If you like this project, consider giving it a star!
